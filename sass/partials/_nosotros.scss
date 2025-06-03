@@ -1,0 +1,54 @@
+/*Nosotros*/    
+@use "../partials/variables" as*;
+
+    .imagen {
+         @include image-style;
+        }
+    .contenedor-grid-nosotros {        
+        display: grid;       
+        text-align: center;                         
+        grid-template-areas: 
+        'titulo-1    titulo-1     titulo-1'        
+        'texto-1     texto-1      texto-1'  
+        'img-1       img-2        img-3'        
+        'img-1       img-2        img-3'
+        'texto-2     texto-3      texto-4';        
+        grid-template-columns: 30% 25% 30% ;
+        grid-template-rows: 40px 100px 100px 100px 120px 100px;   
+        gap: $grid-gap-nosotros;         
+        }
+
+    .grid-titulo-1{
+        @include grid-area (titulo-1 );            
+    }
+    .grid-texto-1{
+        @include grid-area (texto-1 );        
+    }   
+    .grid-img-1{
+        @include grid-area (img-1);          
+    }
+    .grid-img-2{
+        @include grid-area (img-2);           
+    }
+   .grid-img-3{
+         @include grid-area (img-3);        
+    }
+    .grid-texto-2{
+        @include grid-area (texto-2);         
+    }
+    .grid-texto-3{
+        @include grid-area (texto-3);         
+    }
+    .grid-texto-4{
+        @include grid-area (texto-4);          
+    }         
+   .titulo-imagen{
+    font-weight: bold;
+    //margin-top: 2px;
+    font-size: 20px;
+    //margin: 10px;
+   }
+   .parrafo-nosotros{
+    margin: $margin-20-nosotros;
+   
+   }

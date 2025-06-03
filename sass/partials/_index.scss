@@ -1,0 +1,45 @@
+@use "../partials/variables" as*; 
+/*Home*/   
+    .contenedor-grid-home {        
+          @include grid-template(     
+                    repeat(auto-fit, minmax(320px, 1fr)),
+                    100px,    
+                    'img-1       img-2        img-3'
+                    'img-4       img-5        img-6'
+                    'img-7       img-8        img-9'
+                    'img-10      img-11       img-12'
+                    'img-13      img-14       img-15'  ,
+                    1rem
+        );   
+        text-align: center;      
+        max-width: 1000px;
+        margin: 10px auto;
+        padding: .5rem;        
+        width: 100%;
+        gap: 5px; 
+      
+        }
+        .grid-img-1-home{grid-area:img-1; }
+        .grid-img-2-home{grid-area:img-2; }
+        .grid-img-3-home{grid-area:img-3; }
+        .grid-img-4-home{grid-area:img-4; }
+        .grid-img-5-home{grid-area:img-5; }
+        .grid-img-6-home{grid-area:img-6; }
+        .grid-img-7-home{grid-area:img-7; }
+        .grid-img-8-home{grid-area:img-8; }
+        .grid-img-9-home{grid-area:img-9; }
+        .grid-img-10-home{grid-area:img-10;}
+        .grid-img-11-home{grid-area:img-11;}
+        .grid-img-12-home{grid-area:img-12;}
+        .grid-img-13-home{grid-area:img-13;}
+        .grid-img-14-home{grid-area:img-14;}
+        .grid-img-15-home{grid-area:img-15;}  
+
+        .contenedor-grid-home  div img {
+          @include image-style-home(320px,5px);
+          height: 100px;
+          //background-size: cover;   
+          object-fit: cover;
+          //max-width: 500px;
+                 
+          }

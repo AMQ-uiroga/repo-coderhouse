@@ -1,0 +1,80 @@
+//variables Compartidas
+$color-boton:#ccc;
+$background-color: #60B5FF;
+$border-radius:6px;
+$padding-10:10px;
+
+//Home Inicio
+$text-color:#000;
+//Home Fin
+
+//Nosotros Inicio
+$img-size-nosotros: 150px;
+$img-radius-nosotros:50px;
+$grid-gap-nosotros:12px;
+
+$font-bold-nosotros: bold;
+$font-size-title-nosotros:20px;
+$margin-20-nosotros:20px;
+//Nosotros Fin
+
+//contacto Inicio
+$padding-contacto-1:1px;
+$pagging-20-contacto:20px;
+
+$border-color-contacto:#ccc;
+//contacto Fin
+
+
+//Home Inicio
+@mixin grid-template($cols, $rows, $areas, $gap){
+    display: grid;
+    grid-template-columns: $cols;
+    grid-auto-rows: $rows;
+    grid-template-areas: $areas;
+    gap:$gap;
+}
+
+@mixin image-style-home($size , $radius){
+    width:  $size;
+    border-radius: $radius;    
+    display:block; 
+}
+//Home Fin
+
+//Nosotros inicio
+@mixin grid-area($nombre){
+    grid-area:$nombre;
+}
+
+@mixin image-style{
+   border-radius:$img-radius-nosotros;
+   width: $img-size-nosotros;
+   height: $img-size-nosotros;
+   margin-top: 30px;
+}
+//Nosotros fin
+
+//contacto Inico
+@mixin flex-column-contacto ( $gap ) {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $gap;
+}
+
+@mixin input-style-contacto ($font-size) {
+    padding: $padding-10 ;
+    border:1px solid $border-color-contacto;
+    border-radius:  $border-radius;
+    font-size: $font-size;
+}
+
+@mixin button-style-contacto ($font-size) {
+    border: none ;
+    padding: $padding-10 $pagging-20-contacto;
+    border-radius:  $border-radius;
+    font-size: $font-size;
+    background-color: $background-color;
+}
+//contacto Fin
+

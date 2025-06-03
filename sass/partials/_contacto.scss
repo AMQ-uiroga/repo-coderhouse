@@ -1,0 +1,38 @@
+/*Contacto*/
+@use "../partials/variables" as*;
+
+
+.formulario, .ubicacion {
+    @include flex-column-contacto(null); 
+    margin: auto;
+    max-width: 400px;
+    padding: 1px; 
+    width: 90%;
+    }
+
+    .campo {
+         @include flex-column-contacto(10px);      
+    }
+
+    .campo label{
+        margin-bottom: 2px;   
+    }
+
+    .campo-mensaje{
+        margin-right: 0;
+    }
+
+    .campo input, 
+    .campo textarea {
+         @include input-style-contacto (16px);
+         width: 100%;
+         box-sizing: border-box;
+    }   
+
+    .botton {
+         @include button-style-contacto (18px);
+         width: 100%;
+         margin-top: 10px;
+    } 
+
+ 

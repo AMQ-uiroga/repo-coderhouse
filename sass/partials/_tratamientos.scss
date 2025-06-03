@@ -1,0 +1,33 @@
+
+/*TRATAMIENTO*/    
+
+.cards{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.card .content{
+    display: flex;
+    flex-direction: column;
+     max-width: 600px;
+    flex: 50px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(175, 221, 255);
+    box-shadow: 10px 5px 5px black;
+    }
+
+.car .content {
+    flex-grow: 1;
+    flex-shrink: 1;  
+}
+
+.card h5 {        
+    color:black;
+    text-align: center;     
+    margin:15px;   
+    text-decoration:underline;
+    
+}

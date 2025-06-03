@@ -1,0 +1,12 @@
+@use "partials/resets" as*;
+@use "partials/general" as*;
+@use "partials/header-footer" as*;
+@use "partials/index" as*;
+@use "partials/nosotros" as*;
+@use "partials/medicos" as* ;
+@use "partials/tratamientos" as* ; 
+@use "partials/contacto" as* ;
+
+
+//Ultimo Partials es el de MediaQuery
+@use "partials/mediaQuery" as* ; 
