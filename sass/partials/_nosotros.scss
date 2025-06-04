@@ -1,9 +1,7 @@
 /*Nosotros*/    
 @use "../partials/variables" as*;
 
-    .imagen {
-         @include image-style;
-        }
+  
     .contenedor-grid-nosotros {        
         display: grid;       
         text-align: center;                         
@@ -16,6 +14,10 @@
         grid-template-columns: 30% 25% 30% ;
         grid-template-rows: 40px 100px 100px 100px 120px 100px;   
         gap: $grid-gap-nosotros;         
+        }
+    
+    .imagen {
+         @include image-style;
         }
 
     .grid-titulo-1{
