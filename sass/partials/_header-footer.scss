@@ -11,9 +11,10 @@ header {
   flex-direction: row;
   justify-content: space-between;
   position: sticky;
-  padding: 10px;
+  //padding: 10px;
+  padding: 5px;
   img { 
-    width: 60px;
+    width: 40px;
     margin: 8px;
     border-radius: 17px;
   }
@@ -47,8 +48,8 @@ nav{
 /* Footer */
 footer{
     background-color:#60B5FF;
-    position:fixed;
+    //position:fixed;
     left:0px;
     bottom:0px;  
-    width:100%;
+    max-width:100%;
 }

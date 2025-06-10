@@ -64,10 +64,10 @@ header {
   flex-direction: row;
   justify-content: space-between;
   position: sticky;
-  padding: 10px;
+  padding: 5px;
 }
 header img {
-  width: 60px;
+  width: 40px;
   margin: 8px;
   border-radius: 17px;
 }
@@ -99,10 +99,9 @@ nav a {
 /* Footer */
 footer {
   background-color: #60B5FF;
-  position: fixed;
   left: 0px;
   bottom: 0px;
-  width: 100%;
+  max-width: 100%;
 }
 
 /*Home*/
@@ -194,7 +193,7 @@ footer {
   display: grid;
   text-align: center;
   grid-template-areas: "titulo-1    titulo-1     titulo-1" "texto-1     texto-1      texto-1" "img-1       img-2        img-3" "img-1       img-2        img-3" "texto-2     texto-3      texto-4";
-  grid-template-columns: 30% 25% 30%;
+  grid-template-columns: 30% 41% 30%;
   grid-template-rows: 40px 100px 100px 100px 120px 100px;
   gap: 12px;
 }
@@ -203,7 +202,7 @@ footer {
   border-radius: 50px;
   width: 150px;
   height: 150px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .grid-titulo-1 {
@@ -354,7 +353,7 @@ footer {
 
 .botton {
   border: none;
-  padding: 10px 20px;
+  padding: 10px 10px;
   border-radius: 6px;
   font-size: 18px;
   background-color: #60B5FF;

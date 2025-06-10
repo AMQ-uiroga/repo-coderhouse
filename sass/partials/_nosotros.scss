@@ -11,7 +11,7 @@
         'img-1       img-2        img-3'        
         'img-1       img-2        img-3'
         'texto-2     texto-3      texto-4';        
-        grid-template-columns: 30% 25% 30% ;
+        grid-template-columns: 30% 41% 30% ;
         grid-template-rows: 40px 100px 100px 100px 120px 100px;   
         gap: $grid-gap-nosotros;         
         }
@@ -52,5 +52,6 @@
    }
    .parrafo-nosotros{
     margin: $margin-20-nosotros;
+   // margin:$margin-10-nosotros;
    
    }
