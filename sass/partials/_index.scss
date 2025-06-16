@@ -37,9 +37,7 @@
 
         .contenedor-grid-home  div img {
           @include image-style-home(320px,5px);
-          height: 100px;
-          //background-size: cover;   
-          object-fit: cover;
-          //max-width: 500px;
+          height: 100px;            
+          object-fit: cover;      
                  
           }

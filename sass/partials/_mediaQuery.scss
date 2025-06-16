@@ -115,7 +115,32 @@
         "texto-3"
         "img-3"
         "texto-4";
-        grid-template-columns: 2fr; 
+        grid-template-columns: 3fr; 
+        grid-template-rows: auto; 
+        gap: $grid-gap-nosotros;   
+
+    }
+
+
+}
+
+/*Home*/
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+     /*Nosotros*/
+    .contenedor-grid-nosotros {
+        display: grid;
+        text-align: center;
+            
+    grid-template-areas:
+        "titulo-1 "
+        "texto-1 "
+        "img-1"
+        "texto-2"
+        "img-2"
+        "texto-3"
+        "img-3"
+        "texto-4";
+        grid-template-columns: 3fr; 
         grid-template-rows: auto; 
         gap: $grid-gap-nosotros;   
 

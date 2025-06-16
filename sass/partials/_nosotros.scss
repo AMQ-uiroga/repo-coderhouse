@@ -45,13 +45,10 @@
         @include grid-area (texto-4);          
     }         
    .titulo-imagen{
-    font-weight: bold;
-    //margin-top: 2px;
-    font-size: 20px;
-    //margin: 10px;
+    font-weight: bold;  
+    font-size: 20px;    
    }
    .parrafo-nosotros{
-    margin: $margin-20-nosotros;
-   // margin:$margin-10-nosotros;
+    margin: $margin-20-nosotros;  
    
    }
