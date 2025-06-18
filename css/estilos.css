@@ -448,6 +448,13 @@ footer {
     grid-template-rows: auto;
     gap: 12px;
   }
+  /*Medicos*/
+  .medicos .card-body {
+    height: 270px;
+  }
+  .medicos .card-text {
+    height: 120px;
+  }
 }
 /*Home*/
 @media only screen and (min-width: 1000px) and (max-width: 1300px) {
